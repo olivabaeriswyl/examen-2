@@ -8,18 +8,6 @@
 /* ====================================
 // reset rules
 // ==================================== */
-.row + .row {
-  margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^=col-] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
-}
-
 
 * {
   box-sizing: border-box;
@@ -38,6 +26,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+
+  font-family: "gill-sans-nova", sans-serif;
 }
 
 a {
@@ -49,4 +39,60 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 4.2px;
+  line-height: 85%;
+  margin: 115px 0 64px;
+}
+
+header {
+  padding-bottom: 265px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.red-part {
+  background: #D75F08;
+  padding: 95px 0 100px;
+}
+
+nav {
+  color: white;
+}
+
+.navigation {
+  color: black;
+  text-align: end;
+}
+
+.navigation a {
+  text-decoration: none;
+  margin-left: 64px;
+}
+
+.slogan {
+  color: white;
+  text-align: end;
+  font-weight: 400;
+}
+
+.book {
+  background: url(../img/header-resto.jpg);
+  mix-blend-mode: hard-light;
+  padding: 40px 0 563px;
+  margin-top: -100px;
+  margin-bottom: 45px;
+}
+
+a {
+  color: white;
+  background: #D75F08;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 6px;
 }
