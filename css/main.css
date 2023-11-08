@@ -41,6 +41,11 @@ video {
   vertical-align: middle;
 }
 
+.container {
+  padding: 0 30px;
+}
+
+
 h1 {
   color: white;
   font-size: 30px;
@@ -82,11 +87,11 @@ nav {
 }
 
 .book {
-  background: url(../img/header-resto.jpg);
+  background: url(../img/header-resto.jpg) center;
   mix-blend-mode: hard-light;
-  padding: 40px 0 563px;
+  padding: 50px 0 30%;
   margin-top: -100px;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 main a, .book a {
@@ -103,7 +108,7 @@ h2 {
   font-size: 30px;
   font-weight: 600;
   line-height: 85%;
-  margin: 135px 0 5px;
+  margin: 40px 0 5px;
 }
 
 h3 {
@@ -128,22 +133,32 @@ ul {
 
 .dark-part {
   background: #D75F08;
-  padding: 0 40px 35px;
+  padding: 230px 40px 35px;
   color: white;
+}
+
+hr {
+  margin: 10px 0 5px;
 }
 
 .variante-button {
   display: block;
   background: none;
   color: #D75F08;
-  margin-bottom: 175px;
+  margin-bottom: 70px;
   text-align: end;
 }
 
-.dark-part img {
+.big-margin-button {
+  margin-bottom: 150px;
+}
+
+.poster {
   mix-blend-mode: multiply;
-  margin: -100px 0 30px;
-  width: 170px;
+  filter: grayscale(100%);
+  width: 50%;
+  margin: 0 auto -200px;
+  display: block;
 }
 
 .dark-part hr {
@@ -156,15 +171,22 @@ ul {
 }
 
 .horaires-section {
-  background: url(../img/book-cinema.jpg);
+  background: url(../img/book-cinema.jpg) center;
   padding: 368px 310px;
 }
 
 .book-section {
-  background: url(../img/book-resto.jpg);
+  background: url(../img/book-resto.jpg) center;
   padding: 368px 310px;
 }
 
+.color-light {
+  background: #F8F5F3;
+  padding-bottom: 65px;
+}
+
+
+/* footer */
 
 footer {
   background: #D75F08;
@@ -191,4 +213,9 @@ footer p {
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 40px;
+}
+
+footer a {
+  display: block;
+  text-align: end;
 }
