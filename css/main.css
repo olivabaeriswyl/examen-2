@@ -28,6 +28,7 @@ body {
   line-height: 1.25;
 
   font-family: "gill-sans-nova", sans-serif;
+  font-size: 18px;
 }
 
 a {
@@ -53,17 +54,18 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 4.2px;
   line-height: 85%;
-  margin: 115px 0 64px;
+  margin: 70px 0 40px;
 }
 
 header {
   font-weight: 600;
   font-size: 18px;
+  padding-bottom: 100px;
 }
 
 .red-part {
   background: #D75F08;
-  padding: 95px 0 100px;
+  padding: 40px 0 100px;
 }
 
 nav {
@@ -88,19 +90,38 @@ nav {
 
 .book {
   background: url(../img/header-resto.jpg) center;
+  background-size: cover;
   mix-blend-mode: hard-light;
-  padding: 50px 0 30%;
+  aspect-ratio: 1.85;
+  width: auto;
+  padding: 20px;
   margin-top: -100px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+.book a {
+  display: block;
+  background: #D75F08;
 }
 
 main a, .book a {
   color: white;
-  background: #D75F08;
   text-decoration: none;
   padding: 12px 30px;
   border-radius: 6px;
   font-size: 20px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+
+main a {
+  background: #D75F08;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 h2 {
@@ -108,7 +129,7 @@ h2 {
   font-size: 30px;
   font-weight: 600;
   line-height: 85%;
-  margin: 40px 0 5px;
+  margin: 25px 0 5px;
 }
 
 h3 {
@@ -116,7 +137,7 @@ h3 {
   font-weight: 400;
   line-height: 127%;
   letter-spacing: 0.44px;
-  margin-bottom: 115px;
+  margin-bottom: 60px;
 }
 
 h4 {
@@ -145,12 +166,12 @@ hr {
   display: block;
   background: none;
   color: #D75F08;
-  margin-bottom: 70px;
+  margin: 0;
   text-align: end;
 }
 
 .big-margin-button {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .poster {
@@ -165,26 +186,54 @@ hr {
   border: 1px rgba(0, 0, 0, 0.20) solid;
 }
 
+.color-light {
+  background: #F8F5F3;
+  padding-bottom: 100px;
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-img {
+  margin: 50px 0 0 30px;
+  box-shadow: 30px 30px 0 #D75F08;
+}
+
+.menu-img-big {
+  margin: 180px 0 100px 0;
+}
+
 .orange-bloc {
   background: #D75F08;
-  padding: 44px 0;
+  padding: 100px 0;
+}
+
+ul {
+  color: white;
 }
 
 .horaires-section {
   background: url(../img/book-cinema.jpg) center;
-  padding: 368px 310px;
+  height: 368px;
+  width: auto;
+  margin-top: -150px;
+  text-align: center;
 }
 
 .book-section {
   background: url(../img/book-resto.jpg) center;
-  padding: 368px 310px;
+  height: 368px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.color-light {
-  background: #F8F5F3;
-  padding-bottom: 65px;
+.book-section a {
+  margin: 0;
 }
-
 
 /* footer */
 
