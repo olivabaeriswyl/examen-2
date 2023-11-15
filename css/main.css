@@ -63,6 +63,10 @@ header {
   padding-bottom: 100px;
 }
 
+.intro-font {
+  font-weight: 400;
+}
+
 .red-part {
   background: #D75F08;
   padding: 40px 0 100px;
@@ -150,6 +154,10 @@ h4 {
 
 ul {
   list-style: none;
+}
+
+.font-weight-list {
+  font-weight: 400;
 }
 
 .dark-part {
@@ -251,14 +259,14 @@ ul {
 
 .producteur-img {
   mix-blend-mode: multiply;
-  filter: grayscale(50%);
+  filter: grayscale(40%);
+  opacity: 90%;
 }
 
 .producteur-shadow {
+  padding: 30%;
+  margin: 30px 30px -195px -30px;
   background: #FEC600;
-  margin-top: 70px;
-  margin-left: -30px;
-  padding: 140px 50px;
 }
 
 .margin-bottom-infos {
@@ -270,6 +278,10 @@ ul {
   width: 50%;
   float: right;
   margin-right: -30px;
+}
+
+.margin-infos {
+  margin-bottom: 60px;
 }
 
 /* footer */
