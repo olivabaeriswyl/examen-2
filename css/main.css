@@ -46,6 +46,7 @@ video {
   padding: 0 30px;
 }
 
+/* header */
 
 h1 {
   color: white;
@@ -92,6 +93,12 @@ nav {
   font-weight: 400;
 }
 
+@media(min-width:992px) {
+  .slogan {
+    margin-top: 15px;
+  }
+}
+
 .book {
   background: url(../img/header-resto.jpg) center;
   background-size: cover;
@@ -107,6 +114,8 @@ nav {
   display: block;
   background: #cb8654;
 }
+
+/* main & autre */
 
 main a, .book a {
   color: white;
@@ -126,6 +135,12 @@ main a {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+}
+
+@media(min-width:992px) {
+  main a {
+    margin-top: 35px;
+  }
 }
 
 h2 {
