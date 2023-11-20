@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -44,6 +45,34 @@ video {
 
 .container {
   padding: 0 30px;
+}
+
+/* menu-burger */
+.burger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+}
+
+.menuburger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: #ccc;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 10;
+}
+
+.menuburger.is-active {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* header */
@@ -117,6 +146,7 @@ nav {
 
 /* main & autre */
 
+/* boutons */
 main a, .book a {
   color: white;
   text-decoration: none;
@@ -132,17 +162,27 @@ main a, .book a {
 
 main a {
   background: #D75F08;
-  display: flex;
-  justify-content: center;
   margin-top: 100px;
+}
+
+main a:hover, .book a:hover {
+  color: #D75F08;
+  background: #ffffff;
 }
 
 @media(min-width:992px) {
   main a {
     margin-top: 35px;
   }
+
+  .center-button {
+    display: flex;
+    justify-content: end;
+  }
 }
 
+
+/* titres */
 h2 {
   color: #D75F08;
   font-size: 30px;
@@ -167,6 +207,7 @@ h4 {
   letter-spacing: 0.44px;
 }
 
+/* fiches programme */
 ul {
   list-style: none;
 }
@@ -193,8 +234,17 @@ hr {
   text-align: end;
 }
 
+.variante-button:hover {
+  text-decoration: underline;
+  background: none;
+}
+
 .big-margin-button {
   margin-bottom: 100px;
+}
+
+.dark-part-first-margin {
+  margin-top: 3px;
 }
 
 .poster {
@@ -209,6 +259,7 @@ hr {
   border: 1px rgba(0, 0, 0, 0.20) solid;
 }
 
+/* menu */
 .color-light {
   background: #F8F5F3;
   padding-bottom: 100px;
@@ -229,6 +280,22 @@ hr {
   box-shadow: 30px -30px 0 #FEC600;
 }
 
+@media(min-width:992px) {
+  .menu-img-big {
+    margin: 10px 0 0 -120px;
+  }
+  
+  .menu:first-of-type {
+    margin-top: 100px;
+  }
+  
+  .menu-img {
+    margin: 100px 0 270px 90px;
+  }
+}
+
+
+/* réservation */
 .orange-bloc {
   background: #D75F08;
   padding: 100px 0;
@@ -272,6 +339,18 @@ ul {
   margin: 0;
 }
 
+@media(min-width:992px) {
+  .book-section {
+    margin: -150px 0 200px -15px;
+  }
+
+  .horaires-section {
+    margin-right: -15px;
+  }
+}
+
+
+/* producteur */
 .producteur-img {
   mix-blend-mode: multiply;
   filter: grayscale(40%);
@@ -284,8 +363,16 @@ ul {
   background: #FEC600;
 }
 
+@media(min-width:992px) {
+  .producteur-shadow {
+    margin-bottom: -400px;
+  }
+}
+
+
+/* informations */
 .margin-bottom-infos {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .bottom-img-margin {
@@ -297,6 +384,17 @@ ul {
 
 .margin-infos {
   margin-bottom: 60px;
+}
+
+@media(min-width:992px) {
+  .infos-block-bottom {
+    margin-bottom: 200px;
+  }
+
+  .bottom-img-margin {
+    margin: 0 -30px 0 0;
+    width: 100%;
+  }
 }
 
 /* footer */
@@ -337,4 +435,8 @@ footer a {
   width: 50px;
   display: flex;
   flex-direction: column;
+}
+
+.up-page:hover {
+  border: #ffffff solid 3px;
 }
