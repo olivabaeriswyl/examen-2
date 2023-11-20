@@ -351,21 +351,28 @@ ul {
 
 
 /* producteur */
-.producteur-img {
+.parent-background {
+  background: #FEC600;
+  padding: 30%;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  
+  position: relative;
+}
+
+.child-img {
   mix-blend-mode: multiply;
   filter: grayscale(40%);
   opacity: 90%;
-}
-
-.producteur-shadow {
-  padding: 30%;
-  margin: 30px 30px -195px -30px;
-  background: #FEC600;
+  
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 
 @media(min-width:992px) {
-  .producteur-shadow {
-    margin-bottom: -400px;
+  .parent-background {
+    margin-bottom: 120px;
   }
 }
 
