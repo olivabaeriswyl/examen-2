@@ -15,4 +15,3 @@ var closeMenu = function closeMenu() {
 burger.addEventListener('click', toggleMenu);
 
 window.addEventListener('resize', closeMenu)
-
