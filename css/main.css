@@ -124,7 +124,7 @@ header {
 }
 
 nav {
-  color: white;
+  color: white; 
 }
 
 header a:hover {
@@ -135,6 +135,8 @@ header a:hover {
 .navigation {
   color: black;
   text-align: end;
+  position: fixed;
+  text-shadow: 0 0 6px #d75e0842;
 }
 
 .navigation a {
