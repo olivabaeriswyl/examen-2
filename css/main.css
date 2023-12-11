@@ -135,8 +135,6 @@ header a:hover {
 .navigation {
   color: black;
   text-align: end;
-  position: fixed;
-  z-index: 10;
 }
 
 .navigation a {
