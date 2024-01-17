@@ -66,28 +66,78 @@ p {
 /* ====================================
 // button
 // ==================================== */
-a {
+.button {
   color: white;
   text-decoration: none;
   background: #75ABB7;
   padding: 5px 40px;
   border-radius: 4px;
-
-  
 }
 
-a:hover {
+.button:hover {
 
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-button {
+  margin: 35px 0;
+}
+
+/* ====================================
+// header
+// ==================================== */
+header {
+  background: url(../img/header.png);
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.navigation-desktop a {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.start-flex {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+header .button {
+  padding: 5px 20px;
+  margin-right: 0;
+}
+
+/* ====================================
+// main
+// ==================================== */
+.color-part {
+  background: #FFF6EB;
+  padding: 90px 0;
 }
 
 /* ====================================
 // footer
 // ==================================== */
-
 footer {
   margin-top: 130px;
   padding-bottom: 60px;
   background: url(../img/footer.png);
+  background-size: cover;
 }
 
 .no-color-part {
