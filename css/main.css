@@ -58,9 +58,18 @@ h1 {
   color: #20788A; 
 }
 
+h2 {
+  font-family: ;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #20788A;
+  margin-bottom: 40px
+}
+
 p {
   font-family: ;
   font-size: 15px;
+  margin-bottom: 15px;
 }
 
 /* ====================================
@@ -84,7 +93,7 @@ p {
 }
 
 .margin-button {
-  margin: 35px 0;
+  margin: 60px 0;
 }
 
 /* ====================================
@@ -128,13 +137,26 @@ header .button {
 .color-part {
   background: #FFF6EB;
   padding: 90px 0;
+  margin-bottom: 130px;
+}
+
+.part-welcome {
+  padding: ;
+}
+
+.part-service img {
+  margin-bottom: 60px;
+  max-width: ;
+}
+
+.part-service h2 {
+  margin-left: 10px;
 }
 
 /* ====================================
 // footer
 // ==================================== */
 footer {
-  margin-top: 130px;
   padding-bottom: 60px;
   background: url(../img/footer.png);
   background-size: cover;
