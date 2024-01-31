@@ -205,7 +205,7 @@ footer img {
 }
 
 /* ====================================
-// contact
+// Boite bleue
 // ==================================== */
 .smallcolor-part {
   color: white;
@@ -229,4 +229,13 @@ footer img {
 
 .smallcolor-part a:last-child {
   margin-left: 30px;
+}
+
+.smallcolor-part-quisuisje {
+  margin-top: -160px;
+}
+
+.color-part-quisuisje {
+  margin-bottom: 160px;
+  padding-bottom: ;
 }
