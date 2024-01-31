@@ -182,3 +182,30 @@ footer img {
   display: flex;
   justify-content: end;
 }
+
+/* ====================================
+// temoignages
+// ==================================== */
+.right-line-temoignage {
+  border-left: #75ABB7 solid 4px;
+  padding: 0 0 10px 6px;
+}
+
+.temoignages-main {
+  background: #FFF6EB; 
+  margin-bottom: 130px;
+  padding: 90px 0;
+}
+
+/* ====================================
+// contact
+// ==================================== */
+.smallcolor-part {
+  color: white;
+  background: #75ABB7;
+  padding: 30px;
+}
+
+.smallcolor-part a {
+  display: block;
+}
