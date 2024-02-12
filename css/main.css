@@ -232,10 +232,24 @@ footer img {
 }
 
 .smallcolor-part-quisuisje {
-  margin-top: -160px;
+  margin-top: -180px;
+  margin-bottom: 140px;
 }
 
-.color-part-quisuisje {
-  margin-bottom: 160px;
-  padding-bottom: ;
+
+/* ====================================
+// accompagnements
+// ==================================== */
+
+.accompagnements-marges .color-part {
+  padding: 90px 0;
+}
+
+.accompagnement-specific ul {
+  margin: 0 0 20px 40px;
+}
+
+.accompagnement-specific .color-part-small {
+  background-color: #FFF6EB;
+  padding: 30px 0;
 }
