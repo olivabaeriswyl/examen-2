@@ -88,10 +88,12 @@ p {
   background: #75ABB7;
   padding: 5px 40px;
   border-radius: 4px;
+  transition: 0.6s;
 }
 
 .button:hover {
-
+  color: #75ABB7;
+  background: white;
 }
 
 .main-button {
@@ -112,9 +114,20 @@ header {
   padding: 30px 0;
 }
 
+@media (max-width:576px) {
+  header {
+    background: url(../img/tel-header.png);
+  }
+}
 .navigation-desktop a {
   font-size: 16px;
   margin-right: 10px;
+}
+
+.navigation-desktop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 nav {
@@ -138,6 +151,24 @@ header .button {
   margin-right: 0;
 }
 
+@media (max-width:576px) {
+  header .button-contact {
+    margin-top: 15px;
+  }
+  .navigation-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    justify-content: start;
+  }
+
+  .navigation-desktop a {
+    margin-bottom: 10px;
+  }
+}
+
 /* ====================================
 // main
 // ==================================== */
@@ -147,17 +178,32 @@ header .button {
   margin-bottom: 130px;
 }
 
-.part-welcome {
-  padding: ;
-}
-
 .part-service img {
   margin-bottom: 60px;
-  max-width: ;
 }
 
 .part-service h2 {
   margin-left: 10px;
+}
+
+@media (max-width:992px) {
+  .accompagnements-marges {
+    margin-bottom: 30px;
+  }
+
+  .color-part-quisuisje {
+    margin-bottom: 130px;
+  }
+
+  .part-service {
+    padding: 30px 0;
+    margin-bottom: 130px;
+  }
+
+  .part-service .margin-button {
+    margin: 0 0 30px;
+  }
+
 }
 
 /* ====================================
